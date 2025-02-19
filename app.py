@@ -81,9 +81,9 @@ class MusicRecommender:
 
 
 if __name__ == "__main__":
-    SPOTIPY_CLIENT_ID = 'e35d3f3e657e4b61b1c2fb3606025165'
-    SPOTIPY_CLIENT_SECRET = 'e7ddbcea823148b2a12e9ca56df04144'
-    SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback'
+    SPOTIPY_CLIENT_ID = ''
+    SPOTIPY_CLIENT_SECRET = ''
+    SPOTIPY_REDIRECT_URI = ''
 
     emotion_detector = EmotionDetector()
     music_recommender = MusicRecommender(SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, SPOTIPY_REDIRECT_URI)
